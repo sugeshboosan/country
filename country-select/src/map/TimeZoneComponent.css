@@ -1,0 +1,22 @@
+.timezoneselect{
+    position: fixed;
+    width: 380px;
+    height: 200px;
+    background-color: rgba(239,229,193,0.5);
+    border-radius: 50%;
+    animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+    bottom:-50px
+    
+}
+
+.timezoneOverlay{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 40px;
+    top: 65px;
+
+}
